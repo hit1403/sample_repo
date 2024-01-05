@@ -195,9 +195,10 @@ func todoHandlers() http.Handler {
 	})
 	return rg
 }
-
+/*
 func checkErr(err error) {
 	if err != nil {
 		log.Fatal(err) //respond with error page or message
 	}
 }
+*/
